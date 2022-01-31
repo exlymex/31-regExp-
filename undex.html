@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id = 'container'>
+        <h1>Please sign up</h1>
+        <form id='info'>
+            <div class='input__box' id = 'asd'>
+                <!-- <img id = 'mistake__img' src="594598.png" alt=""> -->
+                <input type="text" id='input__name' class = 'input' placeholder="First name" required>
+                <div id='mistake_name'>
+                    <span>Please provide a valid username</span>
+                </div>
+            </div>
+            <div class='input__box'>
+                <input type="text" id='input__surname'class = 'input' placeholder="Last name" required>
+                <div id='mistake_surname'>
+                    <span>Please provide a valid lastname</span>
+                </div>
+            </div>
+            <div class='input__box'>
+                <input type="text" id='input__email' class = 'input'placeholder="Email address" required>
+                <div id='mistake_email'>
+                    <span>Please provide a valid email address</span>
+                </div>
+            </div>
+            <div class='input__box'>
+                <input type="password" id='input__password' class = 'input'placeholder="Password" required>
+                <div id='mistake_password'>
+                    <span>Please provide a valid password</span>
+                </div>
+            </div>
+
+        </form>
+        <div class="wrapper">
+            <input type="checkbox" name="checkbox" id="checkbox" ><span>I agree with Privacy Policy</span>
+        </div>
+        <div class="sign__up">
+            <button id='sign__up__button'>Sign Up</button>
+        </div>
+    </div>
+    <div id="info-container">
+        <h1>Great!</h1>
+        <div class="button__box">
+            <button id = 'exploring__button'>Start exploring</button>
+        </div>
+        
+    </div>
+
+    <script src='script.js'></script>
+</body>
+
+</html>
